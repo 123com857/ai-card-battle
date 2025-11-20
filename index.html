@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SanGuoSha AI Duel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'sgs-bg': '#2c241b',
+              'sgs-wood': '#5c4033',
+              'sgs-gold': '#d4af37',
+              'sgs-red': '#8b0000',
+              'sgs-text': '#f5deb3',
+            },
+            fontFamily: {
+              serif: ['"Noto Serif SC"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: #2c241b;
+        background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+        font-family: 'Noto Serif SC', serif;
+        overflow: hidden; /* Prevent scrolling on mobile */
+      }
+      .card-shadow {
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+      }
+      /* Custom scrollbar for logs */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #3e3226; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #886b4b; 
+        border-radius: 4px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "SanGuoSha AI Duel",
+  "description": "A simplified, visually polished 1v1 version of the classic card game 'Legends of the Three Kingdoms' (SanGuoSha) featuring an AI opponent powered by Gemini.",
+  "requestFramePermissions": []
+}
